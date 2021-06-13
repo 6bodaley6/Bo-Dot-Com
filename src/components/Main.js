@@ -57,6 +57,7 @@ export default function Main() {
         <>
             <Paper className={classes.mainPage}>
                 {
+                    //can I even use google drive for an image like 
                     <img
                         style={{ display: "none" }}
                         src="https://drive.google.com/drive/folders/14tRRSmkvIftCFyo4pGPEeu2Eip0VHjNN?usp=sharing"
