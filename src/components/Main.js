@@ -1,9 +1,9 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Typography from "@material-ui/core/Typography";
 import Paper from "@material-ui/core/Paper";
-import FeaturedTiles from "./FeaturedTiles"
+import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid"
+import FeaturedTiles from "./FeaturedTiles"
 
 const useStyles = makeStyles((theme) => ({
     mainPage: {
@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
         color: theme.palette.common.white,
         marginBottom: theme.spacing(4),
         backgroundImage:
-            "url()",
+            "url(https://ibb.co/TmcV0Rt)",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
@@ -38,32 +38,34 @@ const useStyles = makeStyles((theme) => ({
 const featuredPosts = [
     {
         title: "About",
-        description: "Get to know me",
+        description: "A little about my self and past experience.",
+        url: "/about",
     },
     {
         title: "Projects",
-        description: "Here are some of my previous apps",
+        description: "Here are some of my previous projects",
         url: "/projects",
     },
     {
         title: "Contact",
         description: "Connect with me",
-        url: "contact",
+        url: "/contact",
     },
 ];
 export default function Main() {
     const classes = useStyles();
     return (
-        <>
+        <div>
             <Paper className={classes.mainPage}>
                 {
-                    //can I even use google drive for an image like 
+                    //can I even use google drive for an image like
                     <img
                         style={{ display: "none" }}
-                        src="https://drive.google.com/drive/folders/14tRRSmkvIftCFyo4pGPEeu2Eip0VHjNN?usp=sharing"
-                        alt="my dog by bushes"
+                        src="https://i.ibb.co/vVbvmpt/48-F2-BE3-F-07-FE-4976-8514-5-F0-BA404149-A.jpg"
+                        alt="48-F2-BE3-F-07-FE-4976-8514-5-F0-BA404149-A"
                     />
                 }
+
                 <div className={classes.overlay} />
                 <Grid container>
                     <Grid item md={6}>
@@ -93,6 +95,6 @@ export default function Main() {
                     <FeaturedTiles key={post.title} post={post} />
                 ))}
             </Grid>
-        </>
+        </div>
     );
 }

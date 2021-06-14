@@ -4,7 +4,6 @@ import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid"
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
-
 // // import CardMedia from "@material-ui/core/CardMedia";
 import { CardMedia } from '@material-ui/core';
 import { Hidden } from '@material-ui/core';
@@ -12,8 +11,9 @@ import { Hidden } from '@material-ui/core';
 import { Avatar, Box, Link } from "@material-ui/core";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 // // import EmailIcon from '@material-ui/icons/Email';
-import { EmailIcon } from '@material-ui/icons/Email';
-import GitHubIcon from "@material-ui/icons/Github";
+import EmailIcon from '@material-ui/icons/Email';
+import GitHubIcon from '@material-ui/icons/GitHub';
+// import GitHubIcon from '@material-ui/icons/GitHub';
 
 const useStyles = makeStyles((theme) => ({
     card: {
@@ -30,9 +30,6 @@ const useStyles = makeStyles((theme) => ({
     avatar: {
         margin: theme.spacing(1),
         backgroundColor: theme.palette.primary.main,
-    },
-    cardMedia: {
-        width: 160
     },
 }));
 

@@ -8,7 +8,14 @@ const useStyles = makeStyles((theme) => ({
     toolbar: {
         justifyContent: "center",
         borderBottom: `1px solid ${theme.palette.divider}`,
-    }
+    },
+    toolbarTitle: {
+        paddingLeft: "15px",
+    },
+    toobarLink: {
+        padding: theme.spacing(1),
+        flexShrink: 0,
+    },
 }));
 
 export default function Header() {
@@ -18,7 +25,7 @@ export default function Header() {
         <React.Fragment>
             <Toolbar className={classes.toolbar}>
                 <Link
-                    variant="h6"
+                    variant="h5"
                     key="home"
                     color="inherit"
                     noWrap
@@ -28,14 +35,14 @@ export default function Header() {
                 >
                     Bo Daley
                 </Link>
-                <a href="/">
+
+                <a href="https://ibb.co/LhRSDbG">
                     <img
-                        style={{ width: "100px", marginLeft: "10px", marginRight: "10px" }}
-                        src="https://drive.google.com/file/d/1U_Qwhz8F0EdhyMe-GJzw6QDWdLVKHq83/view?usp=sharing"
-                        alt="oloid"
+                        style={{ width: "110px", marginLeft: "11px", marginRight: "10px" }}
+                        src="https://i.ibb.co/LhRSDbG/342-F9-B12-8-DDF-4-DB2-A165-FFDB43-DE2-D83.png"
+                        alt="342-F9-B12-8-DDF-4-DB2-A165-FFDB43-DE2-D83"
                     />
                 </a>
-
                 <Link
                     color="inherit"
                     key="about"
@@ -57,7 +64,7 @@ export default function Header() {
                 >
                     Projects
                 </Link>
-                <Typography></Typography>
+                <Typography>/</Typography>
                 <Link
                     color="inherit"
                     key="contact"
@@ -70,5 +77,5 @@ export default function Header() {
                 </Link>
             </Toolbar>
         </React.Fragment>
-    )
+    );
 }

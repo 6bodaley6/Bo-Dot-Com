@@ -1,13 +1,13 @@
 import React from 'react';
-import Grid from 'material-ui/core/Grid'
+import Grid from '@material-ui/core/Grid'
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from '@material-ui/core/styles';
-import Card from 'material-ui/core/Card';
+import Card from '@material-ui/core/Card';
 
-// // import CardMedia from "@material-ui/core/CardMedia";
-import { CardMedia } from '@material-ui/core';
-import { Hidden } from '@material-ui/core';
-// // import Hidden from "@material-ui/core/Hidden"
+import CardMedia from "@material-ui/core/CardMedia";
+// // import { CardMedia } from '@material-ui/core';
+// // import { Hidden } from '@material-ui/core';
+import Hidden from "@material-ui/core/Hidden"
 
 import CardContent from '@material-ui/core/CardContent';
 import { Box, Divider, Link } from "@material-ui/core"
@@ -46,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
     {
-        title: "service-ticker-manager",
+        title: "Service Ticket Mangager",
         enviroment: "Javascript, HTML5, CSS, Nodemailer an npm package that you can use as an email manager",
         description: "Allow a user to create a ticket to deal with an issue. Have the issue have its own unique list item number that the user can view the status of the issue.",
         github: "https://github.com/6bodaley6/service-ticket-manager",
@@ -55,7 +55,7 @@ const projects = [
         imageTitle: "",
     },
     {
-        title: "watchtower",
+        title: "Watchtower",
         enviroment: "React, HTML, CSS",
         description: "Watchtower allows hobbyists to create custom sensors to monitor their home envrionments and view the data online.",
         github: "https://github.com/zackaryanderson/watchtower",
