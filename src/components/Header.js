@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     toolbarTitle: {
         paddingLeft: "15px",
     },
-    toobarLink: {
+    toolbarLink: {
         padding: theme.spacing(1),
         flexShrink: 0,
     },
@@ -69,7 +69,7 @@ export default function Header() {
                     color="inherit"
                     key="contact"
                     variant="body2"
-                    herof="/contact"
+                    href="/contact"
                     className={classes.toolbarLink}
                     style={{ textDecoration: "none" }}
                 >

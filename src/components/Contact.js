@@ -21,16 +21,16 @@ const useStyles = makeStyles((theme) => ({
         marginTop: "20px",
         justifyContent: "center",
     },
-    cardContent: {
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        marginBottom: theme.spacing(2),
-    },
-    avatar: {
-        margin: theme.spacing(1),
-        backgroundColor: theme.palette.primary.main,
-    },
+    // cardContent: {
+    //     display: "flex",
+    //     flexDirection: "column",
+    //     alignItems: "center",
+    //     marginBottom: theme.spacing(2),
+    // },
+    // avatar: {
+    //     margin: theme.spacing(1),
+    //     backgroundColor: theme.palette.primary.main,
+    // },
 }));
 
 const contactInfo = [
