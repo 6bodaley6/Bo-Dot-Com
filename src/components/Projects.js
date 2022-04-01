@@ -46,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
     {
-        title: "Service Ticket Mangager",
+        title: "Service Ticket Manager",
         enviroment: "Javascript, HTML5, CSS, Nodemailer an npm package that you can use as an email manager",
         description: "Allow a user to create a ticket to deal with an issue. Have the issue have its own unique list item number that the user can view the status of the issue.",
         github: "https://github.com/6bodaley6/service-ticket-manager",
