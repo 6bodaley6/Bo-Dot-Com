@@ -39,8 +39,10 @@ export default function Header() {
                 <a href="https://ibb.co/LhRSDbG">
                     <img
                         style={{ width: "110px", marginLeft: "11px", marginRight: "10px" }}
+
                         src="https://i.ibb.co/LhRSDbG/342-F9-B12-8-DDF-4-DB2-A165-FFDB43-DE2-D83.png"
-                        alt="342-F9-B12-8-DDF-4-DB2-A165-FFDB43-DE2-D83"
+
+                        alt="gorillaz-icon"
                     />
                 </a>
                 <Link
