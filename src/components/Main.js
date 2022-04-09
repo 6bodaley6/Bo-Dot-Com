@@ -57,13 +57,13 @@ export default function Main() {
     return (
         <div>
             <Paper className={classes.mainPage}>
-                {
+                {/* {
                     <img
                         style={{ display: "none" }}
                         src="https://i.ibb.co/vVbvmpt/48-F2-BE3-F-07-FE-4976-8514-5-F0-BA404149-A.jpg"
                         alt="48-F2-BE3-F-07-FE-4976-8514-5-F0-BA404149-A"
                     />
-                }
+                } */}
 
                 <div className={classes.overlay} />
                 <Grid container>

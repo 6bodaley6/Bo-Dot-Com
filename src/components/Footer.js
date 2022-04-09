@@ -36,7 +36,7 @@ export default function Footer(props) {
                     color="textSecondary"
                     component="p"
                 >
-                    namaste
+                    I look forword to hearing from you!
                 </Typography>
                 <Copyright />
             </Container>

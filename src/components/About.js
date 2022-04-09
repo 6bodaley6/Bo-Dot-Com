@@ -6,16 +6,13 @@ import Box from '@material-ui/core/Box';
 
 const aboutContent = {
     heading: "Bo Daley",
-    headingText: "I love bringing hardware and software together have been taking apart my xbox's, computers, tools and machinary because I just loved to figure out how I worked when you looked under the surface and what actually is the underlying components that make up all the gizmos and gadgets we have. I feel the same way about sofware I just love to figure out what actually drives an application it is so exhilarating when you get a new technology working for the first time.",
+    headingText: "I love javascript ",
     firstSubHeading: "About",
     firstText:
-        "I am 24 years old I am from Utah I have been married to my wife for 4 years we have a puppy named Lady Bird she is a border collie",
+        "I am 25 years old I am from Utah I have been married to my wife for 5 years we have two border colies Ladybird and Honeybee",
     secondSubHeading: "Experience",
     secondText:
         "I am a recent graduate of the 2021 University of Utah Coding Bootcamp",
-    thirdSubHeading: "My Past experience in construction",
-    thirdText:
-        "I have been in the construction industry for 5 years and have works on anything from multi million dollar custom homes to commercial construction projects, quality control inspector. I have had many managment and team lead positions as well and comfortable working in scrum enviroment."
 }
 
 const useStyles = makeStyles((theme) => ({

@@ -3,6 +3,8 @@ import Toolbar from "@material-ui/core/Toolbar";
 import { makeStyles } from '@material-ui/core/styles';
 import Link from "@material-ui/core/Link";
 import Typography from "@material-ui/core/Typography";
+import logo from "../assets/pandaicon.jpeg";
+
 
 const useStyles = makeStyles((theme) => ({
     toolbar: {
@@ -36,15 +38,14 @@ export default function Header() {
                     Bo Daley
                 </Link>
 
-                <a href="https://ibb.co/LhRSDbG">
-                    <img
-                        style={{ width: "110px", marginLeft: "11px", marginRight: "10px" }}
+                <img
+                    style={{ width: "110px", marginLeft: "11px", marginRight: "10px", backgroundColor: false }}
 
-                        src="https://i.ibb.co/LhRSDbG/342-F9-B12-8-DDF-4-DB2-A165-FFDB43-DE2-D83.png"
+                    src={logo}
 
-                        alt="gorillaz-icon"
-                    />
-                </a>
+                    alt="panda icon"
+                />
+
                 <Link
                     color="inherit"
                     key="about"

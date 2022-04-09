@@ -92,7 +92,7 @@ export default function Projects() {
                                         {project.title}
                                     </Typography>
                                     <Typography variant="subtitle1" paragraph>
-                                        Enviroment: {project.enviroement}
+                                        Enviroment: {project.enviroment}
                                     </Typography>
                                     <Typography variant="subtitle1" paragraph>
                                         {project.description}
