@@ -9,7 +9,7 @@ const aboutContent = {
     headingText: "I love javascript ",
     firstSubHeading: "About",
     firstText:
-        "I am 25 years old I am from Utah I have been married to my wife for 5 years we have two border colies Ladybird and Honeybee",
+        "When I first started to learn TypeScript I was sceptical to say the least. But id like to list a few takeaways why I fell in love right away. After travervising my code easier and understanding relationships better. TypeScript will not let you write any null valued data or passing an object instead of an array. We can be assured that we can write valid and efficient code by errors. If our code compiles without any error, we are good to go! The features TypeScript allows because of its type checking allow the IDE to give awesome features including autocompletion and refactoring. I love the compiler options as well for instance when using the --strictNullChecks it gives us the assurance that we wont be using a variable that is unknown to the compiler. ",
     secondSubHeading: "Experience",
     secondText:
         "I am a recent graduate of the 2021 University of Utah Coding Bootcamp",
